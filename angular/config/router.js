@@ -9,33 +9,42 @@ gpdApp.controller('testRouteController2', function($scope, $routeParams) {
 gpdApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
   //$locationProvider.html5Mode(true);
 
-  $routeProvider.when('/testpage', {
-    templateUrl: 'test.html',
-    controller: 'testRouteController'
-  }).otherwise({
-    redirectTo: '/'
-  });
-
-  $routeProvider.when('/testpage/:id', {
-    templateUrl: 'test.html',
-    controller: 'testRouteController2'
-  });
-
-  $routeProvider.when('/', {
+  $routeProvider
+  .when('/', {
     templateUrl: 'mainpage.html',
     controller: 'mainPageController'
-  });
-
-$routeProvider.when('/about', {
-  templateUrl: 'test.html',
-  controller: 'testRouteController'
-})
-  /*
-  $routeProvider.when('/downloads', {
+  })
+  .when('/about', {
     templateUrl: 'test.html',
     controller: 'testRouteController'
   })
-  */
-
-
+  .when('/downloads', {
+    templateUrl: 'views/downloads.html',
+    controller: 'downloadsController'
+  })
+  .when('/downloads/mods', {
+    templateUrl: 'views/mods.html'
+  })
+  .when('/downloads/utils', {
+    templateUrl: 'views/utils.html'
+  })
+  .when('/downloads/:series', {
+    templateUrl: 'views/year.html',
+    controller: 'yearController'
+  })
+  .when('/downloads/:series/:year', {
+    templateUrl: '',
+    controller: ''
+  })
+  .when('/testpage', {
+    templateUrl: 'test.html',
+    controller: 'testRouteController'
+  })
+  .when('/testpage/:id', {
+    templateUrl: 'test.html',
+    controller: 'testRouteController2'
+  })
+  .otherwise({
+    redirectTo: '/'
+  });
 }]);

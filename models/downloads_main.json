@@ -1,0 +1,44 @@
+[
+  {
+    "name": "NASCAR Whelen Modified Tour",
+    "id": "nwmt",
+    "years": [
+      { "year": "2016" },
+      { "year": "2015" },
+      { "year": "2014" },
+      { "year": "2013" }
+    ]
+  },
+  {
+    "name": "NASCAR Whelen Southern Modified Tour",
+    "id": "nwsmt",
+    "years": [
+      { "year": "2016" },
+      { "year": "2015" }
+    ]
+  },
+  {
+    "name": "Valenti Modified Racing Series",
+    "id": "mrs",
+    "years": [
+      { "year": "2016" },
+      { "year": "2015" }
+    ]
+  },
+  {
+    "name": "SK Modifieds",
+    "id": "sk",
+    "years": [
+      { "year": "2016" },
+      { "year": "2015" }
+    ]
+  },
+  {
+    "name": "NR2003 Mods",
+    "id": "mods"
+  },
+  {
+    "name": "Utilities",
+    "id": "utils"
+  }
+]
