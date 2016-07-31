@@ -1,0 +1,37 @@
+<div uib-carousel active="active" interval="5000" class="container latest carousel slide">
+  <div uib-slide ng-repeat="car in sliderCars track by $index" index="$index">
+    <img class="img-responsive center-block" ng-src="{{ car.img }}">
+  </div>
+</div>
+
+<div class="container downloads">
+  Download categories <br /><hr>
+  <div class="row">
+    <div class="col-sm-4">
+      <a href="#/downloads/nwmt/2016"><img class="center-block" src="/images/nwmt.png" /></a>
+
+    </div>
+    <div class="col-sm-4">
+      <a href="#/downloads/nwsmt/2016"><img class="center-block" src="/images/nwsmt.png" /></a>
+    </div>
+    <div class="col-sm-4">
+      <a href="#/downloads/mrs/2016"><img class="center-block" src="/images/mrs.png" /></a>
+    </div>
+    <br />
+    <br />
+  </div>
+  <hr>
+  <div class="more">
+    <div class="pull-right">
+      <a href="#/downloads">More</a>
+    </div>
+  </div>
+</div>
+<div class="container about">
+  About Us
+  <hr>
+</div>
+<div class="container crew">
+  GPD Crew
+  <hr>
+</div>
