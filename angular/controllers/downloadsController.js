@@ -1,5 +1,5 @@
 gpdApp.controller('downloadsController', function($scope, $http) {
-  $http.get('models/downloads_main.json')
+  $http.get('./models/downloads_main.json')
   .success(function(data) {
     $scope.categories = data;
 

@@ -1,7 +1,7 @@
 gpdApp.controller('yearController', function($scope, $http, $route, $routeParams) {
   $scope.selectedCategory = $route.current.params
   //console.log($scope.series)
-  $http.get('/models/downloads_main.json')
+  $http.get('./models/downloads_main.json')
   .success(function(data) {
     $scope.categories = data
 

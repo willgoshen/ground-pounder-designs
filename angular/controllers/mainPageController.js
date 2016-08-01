@@ -1,6 +1,6 @@
 gpdApp.controller('mainPageController', function($scope, $http) {
   //$scope.test = "Hello";
-  $http.get('models/latestCars-slider.json')
+  $http.get('./models/latestCars-slider.json')
   .success(function(data) {
     $scope.sliderCars = data;
     $scope.primaryCar = $scope.sliderCars[0];
