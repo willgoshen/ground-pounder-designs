@@ -1,7 +1,7 @@
-<div class="container downloads">
-  <hr>
+<div class="container content">
+  <div class="content-header">Downloads</div><hr>
   <br />
-  <div ng-repeat="category in categories">
+  <div class="content-body" ng-repeat="category in categories">
     <a ng-href="#/downloads/{{ category.id }}">{{ category.name }}</a>
   </div>
 </div>

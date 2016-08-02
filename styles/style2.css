@@ -1,0 +1,111 @@
+body {
+  background-color: #565656;
+}
+hr {
+  border-color: lightgray;
+}
+
+.header {
+  background-color: white;
+}
+.footer {
+  background-color: lightgray;
+  padding: 15px 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: red;
+
+}
+.latest {
+  background-color: #717171;
+}
+.downloads {
+  background-color: white;
+  padding: 15px 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  color: red;
+}
+.downloads .more {
+  font-size: 18px;
+  padding: 0px 20px;
+  width: 100%;
+  color: red;
+}
+.downloads .col-md-4 {
+  padding: 20px;
+}
+.downloads .col-sm-12 {
+  padding: 20px;
+}
+.downloads img {
+  width: 70%;
+}
+
+.downloads .more a {
+  color: red;
+}
+
+.header-links {
+  float: right;
+  padding-right: 22px;
+  padding-top: 22px;
+  padding-bottom: 25px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-left: 1px solid lightgray;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  height: inherit;
+}
+.header-links-right {
+  border-right: 1px solid lightgray;
+  margin-right: 10px;
+}
+.header-links a {
+  font-family: 'Oswald', sans-serif;
+  color: red;
+  font-size: 20px;
+  text-decoration: none;
+}
+.col-sm-4 img {
+  width: 60%;
+  height: 60%;
+}
+.gpd-logo {
+ padding-left: 40px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+ font-family: 'Teko', sans-serif;
+ font-size: 32px;
+ color: red;
+}
+.gpd-logo img {
+  width: 50%
+}
+
+.about {
+  background-color: white;
+  padding: 15px 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  color: red;
+}
+
+.crew {
+  background-color: white;
+  padding: 15px 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  color: red;
+}
+.year {
+  background-color: white;
+  padding: 15px 20px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  color: red;
+}
+.year a {
+  color: red;
+}
