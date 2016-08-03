@@ -1,7 +1,13 @@
 <div class="container content">
-  <div class="content-header">Downloads</div><hr>
+  <div class="content-header">Downloads</div>
+  <hr>
   <br />
-  <div class="content-body" ng-repeat="category in categories">
-    <a ng-href="#/downloads/{{ category.id }}">{{ category.name }}</a>
+  <div class="row">
+    <div ng-repeat="category in categories">
+      <div class=" col-sm-4 content-body">
+        <a ng-href="#/downloads/{{ category.id }}">{{ category.name }}</a>
+      </div>
+    </div>
   </div>
+
 </div>

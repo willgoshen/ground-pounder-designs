@@ -29,12 +29,12 @@ gpdApp.config(['$routeProvider', '$locationProvider', function($routeProvider, $
     templateUrl: 'views/utils.html'
   })
   .when('/downloads/:series', {
-    templateUrl: 'views/year.html',
-    controller: 'yearController'
+    templateUrl: 'views/years.html',
+    controller: 'yearsController'
   })
   .when('/downloads/:series/:year', {
-    templateUrl: '',
-    controller: ''
+    templateUrl: 'views/year.html',
+    controller: 'yearController'
   })
   .when('/testpage', {
     templateUrl: 'test.html',

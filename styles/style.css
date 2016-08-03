@@ -16,11 +16,15 @@ hr {
   font-size: 40px;
   padding: 15px 20px;
 }
+.content-header a {
+  color: red;
+  text-decoration: none;
+}
 .content-body {
   color: red;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
-  padding: 8px 20px;
+  padding: 15px 40px;
 }
 .content-body a {
   color: red;

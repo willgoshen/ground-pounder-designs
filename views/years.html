@@ -1,0 +1,15 @@
+<div class="container content">
+  <div class="content-header"><a href="#/downloads">Downloads</a> > {{ categoryName }}</div>
+  <hr>
+  <br />
+  <div class="row">
+    <div ng-repeat="year in years">
+      <div class="col-sm-4 content-body">
+        <a href="#/downloads/{{ selectedCategory.series }}/{{ year.year }}">{{ year.year }}</a>
+      </div>
+    </div>
+  </div>
+
+
+
+</div>
